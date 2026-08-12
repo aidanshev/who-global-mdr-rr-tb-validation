@@ -22,6 +22,14 @@ python tools/public_release_audit.py
 - `docs/`: protocols/methods
 - `REPOSITORY_STATUS.md`: completeness status
 
+## Publication documentation
+
+- `PUBLICATION_READINESS.md`: exact frozen-code/reproducibility boundary
+- `CODE_AVAILABILITY.md`: evidence-matched manuscript Code Availability language
+- `RELEASE_CHECKLIST.md`: completed and remaining archival steps
+- `manifests/PROSPECTIVE_LOCK.json`: frozen prediction identity, source hashes, and no-retuning contract
+- `CITATION.cff`: repository citation metadata
+
 ## Archival DOI
 
-After the GitHub tree is complete, tag `v1.0.0`, create a GitHub Release, archive that release with Zenodo or an equivalent preservation service, and add the DOI to this README, `CITATION.cff`, and the manuscript.
+Do not create a final complete-code archival release until the missing hash-matched V2 development modules listed in `manifests/PROSPECTIVE_LOCK.json` are recovered. After recovery, audit the final tree, create an immutable GitHub Release, archive it with Zenodo or an equivalent preservation service, and add the DOI to this README, `CITATION.cff`, and the manuscript.
