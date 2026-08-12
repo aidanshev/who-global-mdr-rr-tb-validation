@@ -1,0 +1,43 @@
+{
+  "lock_version": "V2.0-prospective-2025",
+  "locked_utc": "2026-07-18T03:47:09.742070+00:00",
+  "target_release": "next WHO release containing calendar-year 2025 data",
+  "outcome_unobserved_at_lock": true,
+  "prediction_file": "outputs/tables/PROSPECTIVE_2025_FROZEN_ENSEMBLE_PREDICTIONS.csv",
+  "prediction_sha256": "78df84d327dfadb6dd548511684231e1bdaf881fbffc8c28148e14307082b7e0",
+  "files": {
+    "v2_pipeline.py": "2b1f34c246bbedd700c045243116a66d37a7d40b791997de6d3303bafdc20d42",
+    "fixed_origin_stage.py": "7a29a8b7afd7e5aa33f0b033d91cbee464c22046c70055311e7af3430c591eca",
+    "ensemble_stage.py": "e0c765aad7b88976b737f59c1231e7fae5495a449f8fbb9c9e043f1f08087ae4",
+    "injection_stage.py": "1683b025ce403e9846354552d6f55061a6dcfe937549ba474ffe1ff72c8db11a",
+    "surveillance_only_stage.py": "2ec793ce41dc2e896f9e235d1b1e59f56154951b393f87fbf233aae0a3071c08",
+    "models/reported_best_params.json": "ce88b7e4ab77ae74c9a4f1e32531992d57ae3e7e1092d9072172d3f45580147b",
+    "models/modeled_best_params.json": "7c96ce279515da166e2f8e7691f16c1265a968eeb937c918119f5178a421764a",
+    "models/reported_fixed_origin_best_params.json": "4c99827ffcc0110b31acc18ddc0ec02d050d6e059b71201fc7e4b04b68c53637",
+    "models/modeled_fixed_origin_best_params.json": "c4a329dcacc938a74740eee5bb3368a267a898ddfed3150984ce13686793ecf9",
+    "ENSEMBLE_MANIFEST.json": "dd8b78b45d11316f0ea6fb30a9adf61d1163f0f0c28ef6cb28379961fce39e09",
+    "data/SOURCE_MANIFEST_V2.json": "34b8f7da1cbc041a152a044d1cde662de103b8a776ebed509b14575e3ef7c4bc",
+    "testing_adjusted_yield_stage.py": "74416a556049d33117860ab71e5d2da69c58672b7b40202e4029ff1b22f7157c",
+    "freeze_testing_adjusted_2025.py": "cc790ac8a909ffd31f29c03c72ea9d1f8466664df119a59c2753febcf6ce4b90",
+    "evaluate_next_who_release.py": "a1dde84ce20e6e4b1a8836161a6b2eaaee8443c3f5847a0182b634b10abb224b",
+    "prospective_freeze_stage.py": "a1c3d93d5d71003d3b6a564d64db4e23ab1924c838026a19820644ce6c8555e7",
+    "adjudication_stage.py": "277ebc38132efd57ce5f3fdc194a162a97cdf894d9d16d98ad7fca953d3bba51",
+    "postprocess_stage.py": "6bfd75c9a414dad5097ff8762fe4cc2aa4534e4204ba44bd8ca91e2dc5996a19",
+    "outputs/tables/PROSPECTIVE_2025_TESTING_ADJUSTED_YIELD.csv": "ba378994c589c0fb4062e602a8cd1ab810f8fcb2119bec83cfd89307889fd0b7",
+    "reports/V2_LOCKED_METHODS_PROTOCOL.md": "5f459f20b22f70d169c0f17e7a44dbb355a653c89e7521bc6146f2d23b46f8a9"
+  },
+  "no_retuning_rule": "No model family, hyperparameter, ensemble method, interval rule, population threshold, or alert threshold may be changed before primary 2025 evaluation.",
+  "primary_prospective_endpoints": [
+    "reported_rr_rate rolling one-year log-MAE and calibration",
+    "reported_rr_rate fixed-origin two-year log-MAE and calibration",
+    "strict stable alerts and false-alert burden"
+  ],
+  "secondary_endpoints": [
+    "modeled_rr_rate accuracy",
+    "modeled-only investigation signals"
+  ],
+  "human_blinded_adjudication_completed": false,
+  "prospective_evaluation_completed": false,
+  "lock_amended_utc": "2026-07-18T04:03:16.210820+00:00",
+  "amendment_scope": "Added hashes for completed testing-adjusted and evaluation code/artifacts; frozen prediction values and no-retuning rules unchanged."
+}
