@@ -1,0 +1,12 @@
+{
+  "lock_version": "V2.0-prospective-2025",
+  "locked_utc": "2026-07-18T03:47:09.742070+00:00",
+  "target_release": "next WHO release containing calendar-year 2025 data",
+  "outcome_unobserved_at_lock": true,
+  "prediction_file": "outputs/tables/PROSPECTIVE_2025_FROZEN_ENSEMBLE_PREDICTIONS.csv",
+  "prediction_sha256": "78df84d327dfadb6dd548511684231e1bdaf881fbffc8c28148e14307082b7e0",
+  "evaluate_next_who_release_sha256": "a1dde84ce20e6e4b1a8836161a6b2eaaee8443c3f5847a0182b634b10abb224b",
+  "no_retuning_rule": "No model family, hyperparameter, ensemble method, interval rule, population threshold, or alert threshold may be changed before primary 2025 evaluation.",
+  "human_blinded_adjudication_completed": false,
+  "prospective_evaluation_completed_at_lock": false
+}

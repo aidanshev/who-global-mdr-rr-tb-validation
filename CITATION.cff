@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the associated manuscript and archived release."
+title: "WHO Global MDR/RR-TB Forecast Validation"
+type: software
+authors:
+  - family-names: "Shev"
+    given-names: "Aidan"
+repository-code: "https://github.com/aidanshev/who-global-mdr-rr-tb-validation"
+version: "1.0.0"
+date-released: "2026-08-11"

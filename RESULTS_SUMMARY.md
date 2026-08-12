@@ -1,0 +1,3 @@
+# Results and claim boundary
+
+For routine reported RR/MDR notifications, added predictive value was not established: the best rolling single model tied persistence and the selected ensemble improved log-MAE by 4.3%, but its country-cluster 95% interval included no improvement (-0.3% to 8.4%). For WHO-modeled MDR/RR incidence, statistical/hybrid models improved forecasting by about 34%, but that is forecasting of a modeled series, not independent evidence of transmission. No 2024 dual-outcome strict hotspot was found. Injection testing showed poor strict two-year sensitivity, including 0% for the reported endpoint even for a persistent 100% surge, so the system is not validated as an operational early-warning detector.

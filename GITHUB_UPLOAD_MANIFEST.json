@@ -1,0 +1,77 @@
+[
+  {
+    "path": ".gitignore",
+    "size_bytes": 416,
+    "sha256": "159b85d8f7e782bab480f85d2e6f677db9316a2d8a4492098bffce2f6c696cd7"
+  },
+  {
+    "path": "CITATION.cff",
+    "size_bytes": 358,
+    "sha256": "625a43857efec05ee692c5f244f60c688b5696b2d022afe641b00b79b4a9648f"
+  },
+  {
+    "path": "DATA_SOURCES.md",
+    "size_bytes": 655,
+    "sha256": "4b07c125861d4abd190d933a35381638a5bab08f86ca17ea173deefab0502d11"
+  },
+  {
+    "path": "FIGURE_AND_IMAGE_PROVENANCE.md",
+    "size_bytes": 922,
+    "sha256": "17d0dc314d2f0d4a84c07d68f865279f947f8af83bc8a0721260958d2b937ca6"
+  },
+  {
+    "path": "GITHUB_UPLOAD_MANIFEST.json",
+    "size_bytes": 2132,
+    "sha256": "60deff510d0aa384d2ebef2b33e53707f96dc029b0bdbbecb72cef293271224c"
+  },
+  {
+    "path": "LICENSE_NOTICE.md",
+    "size_bytes": 286,
+    "sha256": "e146423464e4fe67347bff5d921b0362798572dca7eaeb1a836197531cc3fbf6"
+  },
+  {
+    "path": "PUBLIC_RELEASE_AUDIT.json",
+    "size_bytes": 192,
+    "sha256": "7bbd4252171df47211d5c943b08e572ea783e09141524c4f2a36c6b6446d7c6c"
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 1085,
+    "sha256": "355892522887813c89487f356ca064f4539606032d3d20d7b2898cbaf0acced4"
+  },
+  {
+    "path": "REPOSITORY_STATUS.md",
+    "size_bytes": 162,
+    "sha256": "978a6d5d8ff730f869828417dc19002513917f2f3e68624cd7acdcdb1392f694"
+  },
+  {
+    "path": "RESULTS_SUMMARY.md",
+    "size_bytes": 728,
+    "sha256": "bd8e19c7af5c55c982d6efb9108f906b7b7e92074548f6c1629589df5daaf343"
+  },
+  {
+    "path": "SECURITY_AND_PRIVACY.md",
+    "size_bytes": 400,
+    "sha256": "24026c5e71d0558746cadd526799cc780edf419d12768835d2b6c782c0463581"
+  },
+  {
+    "path": "code/evaluate_next_who_release.py",
+    "size_bytes": 5628,
+    "sha256": "423b535480cfcb8a4bb947b5dd72467a25610201c4cf5fc05dc0b530106934f8"
+  },
+  {
+    "path": "docs/V2_LOCKED_METHODS_PROTOCOL_SUMMARY.md",
+    "size_bytes": 446,
+    "sha256": "7361d900482a1787d2b806f4a94b1455ea0f4d12367b8742d74569257fcdc42e"
+  },
+  {
+    "path": "manifests/PROSPECTIVE_LOCK_PUBLIC.json",
+    "size_bytes": 775,
+    "sha256": "c5076548944e0730a892b978e435ff6f6c886bcbad4b4b30a888a0d9bf7301b9"
+  },
+  {
+    "path": "tools/public_release_audit.py",
+    "size_bytes": 1065,
+    "sha256": "8db1df43a55c03496e1867cb868829e9d50494730b8fe39d4033ee6ffb193ef6"
+  }
+]
